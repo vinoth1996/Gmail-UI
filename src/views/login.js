@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 class login extends Component {
-    render(){
+    render() {
         return(
             <Container maxWidth="xs">
                 <CssBaseline />
@@ -62,14 +62,12 @@ class login extends Component {
                             control={<Checkbox value="remember" color="primary" />}
                             label="Remember me"
                         />
-                        <RouterLink to="/mailbox">
+                        <RouterLink to="/mailbox" style={{ textDecoration: 'none' }}>
                         <Button
                             className={useStyles.submit}
-                            type=""
                             color="primary"
                             fullWidth
                             variant="contained"
-                            to="/mailbox"
                         >
                             Sign In
                         </Button>

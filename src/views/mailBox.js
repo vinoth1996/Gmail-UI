@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import Typography from '@material-ui/core/Typography';
+import Navigation from '../components/Navigation';
 
-class mailBox extends Component {
+class MailBox extends Component {
     render() {
         return(
             <div>
-                <Typography align="center" variant="h5">
-                    mailbox
-                </Typography>                
+                <Navigation />
             </div>
         )
     }
 }
 
-export default mailBox
+export default MailBox

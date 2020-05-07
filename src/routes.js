@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Login from './views/login';
-import MailBox from './views/mailBox';
+import MailBox from './views/MailBox';
 
 function routes() {
     return(
@@ -14,4 +14,4 @@ function routes() {
     )
 } 
 
-export default routes;
+export default routes
